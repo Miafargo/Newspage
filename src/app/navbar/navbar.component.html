@@ -1,0 +1,34 @@
+<div class="nav">
+  <div class="nav__bar">
+    <img src="assets/images/logo.svg" alt="logo" />
+    <div class="nav__btns">
+      <button class="nav__btn">Home</button>
+      <button class="nav__btn">New</button>
+      <button class="nav__btn">Popular</button>
+      <button class="nav__btn">Trending</button>
+      <button class="nav__btn">Categories</button>
+    </div>
+    <img
+      src="assets/images/icon-menu.svg"
+      alt="menu"
+      class="nav__menu"
+      (click)="menuDialog.showModal()"
+    />
+  </div>
+  <dialog class="nav__dialog" #menuDialog>
+    <div class="nav__close">
+      <img
+        src="assets/images/icon-menu-close.svg"
+        alt="close"
+        (click)="menuDialog.close()"
+      />
+    </div>
+    <div class="nav__mobile-btns">
+      <button class="nav__btn">Home</button>
+      <button class="nav__btn">New</button>
+      <button class="nav__btn">Popular</button>
+      <button class="nav__btn">Trending</button>
+      <button class="nav__btn">Categories</button>
+    </div>
+  </dialog>
+</div>
