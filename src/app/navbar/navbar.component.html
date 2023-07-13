@@ -12,23 +12,27 @@
       src="assets/images/icon-menu.svg"
       alt="menu"
       class="nav__menu"
-      (click)="menuDialog.showModal()"
+      (click)="openModal()"
     />
   </div>
-  <dialog class="nav__dialog" #menuDialog>
-    <div class="nav__close">
-      <img
-        src="assets/images/icon-menu-close.svg"
-        alt="close"
-        (click)="menuDialog.close()"
-      />
+  <div class="nav__dialog" *ngIf="open === true">
+    <div class="nav__filler">
+      <div class="nav__modal">
+        <div class="nav__close">
+          <img
+            src="assets/images/icon-menu-close.svg"
+            alt="close"
+            (click)="openModal()"
+          />
+        </div>
+        <div class="nav__mobile-btns">
+          <button class="nav__btn">Home</button>
+          <button class="nav__btn">New</button>
+          <button class="nav__btn">Popular</button>
+          <button class="nav__btn">Trending</button>
+          <button class="nav__btn">Categories</button>
+        </div>
+      </div>
     </div>
-    <div class="nav__mobile-btns">
-      <button class="nav__btn">Home</button>
-      <button class="nav__btn">New</button>
-      <button class="nav__btn">Popular</button>
-      <button class="nav__btn">Trending</button>
-      <button class="nav__btn">Categories</button>
-    </div>
-  </dialog>
+  </div>
 </div>

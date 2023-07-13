@@ -9,5 +9,9 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  open:boolean = false;
 
+  openModal = () =>{
+    this.open = !this.open; 
+  }
 }
