@@ -4,9 +4,8 @@ This is a solution to Newspage design taken from Frontend Mentor.
 
 ## Desktop Design (maximum screen width: 1440px)
 
-![desktop-design](https://github.com/Miafargo/Newspage/assets/97089063/441678a3-9fd0-40c7-8754-a0cae28d1fde)
-
+![desktop-design](https://github.com/Miafargo/Newspage/assets/97089063/e275ceb7-55fc-4d91-9657-4c2591d73214)
 
 ## Mobile Design (minimum screen width 375px)
 
-![mobile-design](https://github.com/Miafargo/Newspage/assets/97089063/14f73d00-179d-4eef-87b6-3d5f53d012aa)
+![mobile-design](https://github.com/Miafargo/Newspage/assets/97089063/10417c5f-357d-472b-9785-197f859bbaf4)
